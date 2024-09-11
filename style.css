@@ -46,6 +46,10 @@
     width: calc((100%/12)*8);
 }
 
+.col-8-gap{
+    width: calc((95%/12)*8);
+}
+
 .col-9{
     width: calc((100%/12)*9);
 }
@@ -283,5 +287,39 @@ li>p{
 
 /* #endregion plans */
 
+/* #region partners */
 
+#partners>.container{
+    margin-top: 15rem;
+}
+
+h3{
+    font-size: 1.5rem
+}
+
+.partners-desc>h3{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.partners-desc p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.partners-desc>button{
+    padding: 0.7rem 1.4rem;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 1.2rem;    
+}
+
+.partners-desc>button:hover{
+    border: 1px solid var(--primary);
+    color: white;
+    background-color: var(--primary);
+    transition-delay: 0.3s;
+}
+
+/* #endregion partners */
 /* #endregion main */
