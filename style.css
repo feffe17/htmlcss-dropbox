@@ -26,6 +26,10 @@
     width: calc((100%/12)*4);
 }
 
+.col-4-gap{
+    width: calc((95%/12)*4);
+}
+
 .col-5{
     width: calc((100%/12)*5);
 }
@@ -59,6 +63,10 @@
 }
 
 /* proprieties */
+
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     box-sizing: border-box;
@@ -101,6 +109,10 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.gap1{
+    gap: 1rem;
 }
 
 
@@ -146,11 +158,12 @@ body{
 
 /* #region main*/
 
-/* jumbotron */
+/* #region jumbotron */
 #jumbotron{
     background-color: var(--bg-section);
     
 }
+
 
 #jumbotron>.container{
     width: 75%;
@@ -177,8 +190,96 @@ body{
     font-size: 5rem;
 }
 
-.bi-arrow-down-short{
+
+
+/* #endregion jumbotron */
+
+/* #region plans */
+
+.container>h2{
+    font-size: 3rem;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+}
+
+.mark-plan{
+    font-size: 1.2rem;
+}
+
+.option-mark{
+    width: 1rem;
+    aspect-ratio: 1/1;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+}
+
+.option-mark:hover{
+    border: 5px solid var(--primary);    
+}
+
+.mark-plan span{
+    display: inline-block;
+    margin: 0 2rem 0 0.3rem;
+}
+
+.plans{
+    border: 1px solid var(--primary);
+    margin-top: 3rem;
     
 }
+
+.plan-name{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--primary);
+}
+
+.plan-info>*{
+    display: block;
+    margin: 1rem;
+}
+
+.plan-info>h4{
+    font-size: 1.5rem;
+}
+
+.plan-info>strong{
+    margin: 0 1rem;
+}
+
+.plan-info>ul{
+    list-style: none;
+}
+
+li>svg{
+    margin: 0.5rem 0.2rem 0.5rem 0;
+}
+
+li>p{
+    margin: 0.5rem 0;
+}
+
+.plan-info>button{
+    width: 80%;
+    margin: auto;
+}
+
+.oppure{
+    box-shadow: 0 1px 0 gray;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.plan-info>h5{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+.bi-check-lg{
+    color: var(--primary);
+}
+
+/* #endregion plans */
+
 
 /* #endregion main */
