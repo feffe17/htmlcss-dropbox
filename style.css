@@ -6,6 +6,15 @@
     --primary:#0061ff;
     --bg-section:#b4d0e7;
     --bg-footer: #000000;
+    --bg-designit:#a2d39b;
+    --bg-asu:#61082b;
+    --bg-uof:#0093ce;
+    --bg-topps:#ff1c1c;
+    --bg-designit-big:#f5f5f5;
+    --bg-wbr:#d5001f;
+    --bg-lp:#0d2481;
+    --bg-cco:#ffd830;
+    --col-border-designit:#d1e9cd;
 }
 
 /* columns */
@@ -335,5 +344,84 @@ h3{
 }
 
 /* #endregion operations */
+
+/* #region alleance */
+
+#alleance>.container{
+    margin-top: 10rem;
+    margin-bottom: 2em;
+}
+
+.coop{
+    aspect-ratio: 1/1;
+}
+
+.coop-big{
+    aspect-ratio: 2/1;
+}
+
+.logo-svg {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+  
+
+.designit{
+    background-color: var(--bg-designit);
+    border: 7px solid var(--col-border-designit);
+}
+
+.asu{
+    background-color: var(--bg-asu);
+}
+
+.uof{
+    background-color: var(--bg-uof);
+}
+
+.topps{
+    background-color: var(--bg-topps);
+}
+
+.wbr{
+    background-color: var(--bg-wbr);
+}
+
+.hc{
+    background-color: var(--primary);
+}
+
+.lp{
+    background-color: var(--bg-lp);
+}
+
+.cco{
+    background-color: var(--bg-cco);
+}
+
+.designit-big{
+    background-color: var(--bg-designit-big);
+    border: 0 1rem solid var(--bg-designit-big);
+    position: relative;
+}
+
+.logo-alleance-big{
+    position: absolute;
+    top: 0;
+    left: 2rem;
+}
+
+.designit-big hr{
+    position: absolute;
+    left: 2rem;
+    top: 9rem;
+    color: lightgray;
+}
+
+.designit-big p{
+    margin: 0 2rem 2rem 2rem;
+
+}
+
+/* #endregion alleance */
 
 /* #endregion main */
