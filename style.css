@@ -60,6 +60,17 @@
 
 /* proprieties */
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 .df{
     display: flex;
 }
@@ -80,8 +91,59 @@
     color: white;
 }
 
+/* utilities */
+
+.container{
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
 
-/* #endregion asset)s */
+
+/* #endregion assets */
+
+/* #region header */
+
+.leftmenu img , .leftmenu a , .rightmenu a , .rightmenu div{
+    padding: 1rem;
+}
+
+.menu-functions{
+    text-decoration: none;
+    
+}
+
+.leftmenu>.menu-functions:hover , .rightmenu>.menu-functions:hover{
+    box-shadow: 0px 2px 0px black;
+}
+
+.rightmenu{
+    flex-direction: row-reverse;
+}
+
+.sign-in{
+    background-color: var(--primary);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+
+.sign-in:hover{
+    background-color: white;
+    color: var(--primary);
+    transition-delay: 0.3s;
+}
+
+
+/* #endregion header */
+
+/* #region main*/
+
+
+/* #endregion main */
