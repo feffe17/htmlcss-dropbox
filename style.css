@@ -133,7 +133,7 @@ body{
 }
 
 .leftmenu>.menu-functions:hover , .rightmenu>.menu-functions:hover{
-    box-shadow: 0px 2px 0px black;
+    border-bottom: 1px solid black;
 }
 
 .rightmenu{
@@ -249,6 +249,7 @@ body{
 
 .plan-info>ul{
     list-style: none;
+    font-size: 0.8rem;
 }
 
 li>svg{
@@ -262,6 +263,7 @@ li>p{
 .plan-info>button{
     width: 80%;
     margin: auto;
+    margin-top: 1rem;
 }
 
 .oppure{
