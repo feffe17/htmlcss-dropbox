@@ -427,4 +427,50 @@ h3{
 }
 /* #endregion alleance */
 
+/* #region faq */
+
+#faq>.container{
+    margin-top: 10rem;
+}
+
+.menu-faq{
+    padding: 2rem 0;
+    border-bottom: 2px  solid gray;
+}
+
+.menu-faq:nth-of-type(1){
+    border-top:2px solid gray;
+}
+
+.menu-faq>div:first-child{
+    font-weight: 700;
+}
+
+.menu-faq-hover , .menu-faq-arrow{
+    padding: 1rem 0;
+    display: none;
+
+}
+
+.menu-faq:hover .menu-faq-hover{
+    display: block;
+}
+
+.menu-faq:hover .menu-faq-arrow{
+    display: flex;
+}
+
+.menu-faq:hover .bi-caret-down-fill{
+    display: none;
+}
+
+.bi-caret-down-fill , .bi-caret-up-fill{
+    justify-content: flex-end;
+    
+}
+
+/* #endregion faq */
+
+
+
 /* #endregion main */
