@@ -316,14 +316,14 @@ h3{
     margin-bottom: 2rem;
 }
 
-.partners-desc>button{
+.btn-type2{
     padding: 0.7rem 1.4rem;
     border: 1px solid black;
     cursor: pointer;
     font-size: 1.2rem;    
 }
 
-.partners-desc>button:hover{
+.btn-type2:hover{
     border: 1px solid var(--primary);
     color: white;
     background-color: var(--primary);
@@ -387,7 +387,7 @@ h3{
 }
 
 .hc{
-    background-color: var(--primary);
+    background-color: var(--bg-section);
 }
 
 .lp{
@@ -400,21 +400,11 @@ h3{
 
 .designit-big{
     background-color: var(--bg-designit-big);
-    border: 0 1rem solid var(--bg-designit-big);
-    position: relative;
+    border: 0 2rem solid var(--bg-designit-big);
 }
 
 .logo-alleance-big{
-    position: absolute;
-    top: 0;
-    left: 2rem;
-}
-
-.designit-big hr{
-    position: absolute;
-    left: 2rem;
-    top: 9rem;
-    color: lightgray;
+    margin-left: 2rem;
 }
 
 .designit-big p{
@@ -422,6 +412,19 @@ h3{
 
 }
 
+.flayer{
+    background-color: var(--bg-section);
+}
+
+.flayer>h3{
+    margin: 5rem 0;
+    color: var(--bg-asu);
+    font-size: 2rem;
+}
+
+.flayer>.btn-type2{
+    margin: 5rem 0;
+}
 /* #endregion alleance */
 
 /* #endregion main */
