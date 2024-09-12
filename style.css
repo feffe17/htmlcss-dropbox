@@ -474,3 +474,99 @@ h3{
 
 
 /* #endregion main */
+
+/* #region footer */
+
+footer{
+    background-color: var(--bg-footer);
+    margin-top: 10rem;
+}
+
+footer>.container{
+    padding: 4rem 0;
+}
+
+.footer-col{
+    flex-direction: column;
+}
+
+.footer-col>h6{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+.footer-col>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    padding-bottom: 0.8rem;
+}
+
+.lenguage{
+    align-items: flex-end;
+    color: gray;
+
+}
+
+.menu-lenguage{
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.menu-lenguage:hover{
+    background-color: lightgray;
+}
+
+.menu-lenguage>div{
+    padding: 0.5rem;
+}
+
+.menu-lenguage-hover{
+    width: 100%;
+    display: none;
+    position: absolute;
+    bottom: calc(100% - 0.5rem);
+    left: 0;
+    /* width: 100%; */
+}
+
+.leng-item{
+    background-color: lightgray;
+    color: gray;
+    
+
+}
+
+.leng-item>svg{
+    fill: gray;
+    z-index: 10;
+    
+}
+
+.leng-item>a{
+    text-decoration: none;
+    color: gray;
+    padding: 0.5rem 1rem;
+    
+}
+.leng-item:hover{
+    background-color: rgb(234, 234, 234);
+}
+
+.menu-lenguage:hover .menu-lenguage-hover{
+    display: flex;
+    flex-direction: column-reverse;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-lenguage:hover .leng-item{
+    display: flex;
+    width: 100%
+}
+
+
+/* #endregion footer */
