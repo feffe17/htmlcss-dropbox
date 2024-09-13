@@ -12,7 +12,7 @@
 <body>
     <!-- header -->
     <header>
-        <div class="menu df jcsb aic col-12">
+        <div class="menu df jcsb aic col-12 lg-max-none">
             <div class="leftmenu df aic">                
                 <img src="./img/logo-small.png" alt="Logo">                 
                 <a href="" class="menu-functions">Perchè Dropbox</a>
@@ -28,6 +28,37 @@
                 <a href="" class="menu-functions">Supporto</a>
             </div>
 
+        </div>
+        <div class="menu-lg df aic jcsb col-lg-12 lg-min-none">
+            <div class="menu-lg df aic col-6">
+                <img src="./img/logo-small.png" alt="Logo">
+            </div>
+            <div class="df aic jcfe col-6">
+                <!-- modal menu -->
+                
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          
+                <label for="menu-toggle" class="menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </label>
+              
+                <div class="modal-menu">
+                  <div class="modal-content">
+                    <label for="menu-toggle" class="close-button">&times;</label>
+                    <ul>
+                      <li><button class="sign-in cw">Inizia</button></li>
+                      <li><a href="" class="menu-functions">Accedi</a></li>
+                      <li><a href="" class="menu-functions">Contatta l'ufficio vendite</a></li>
+                      <li><a href="" class="menu-functions">Supporto</a></li>
+                      <li><a href="" class="menu-functions">Perchè Dropbox</a></li>
+                      <li><a href="" class="menu-functions">Funzioni</a></li>
+                      <li><a href="" class="menu-functions">Piani e prezzo</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- /header -->
